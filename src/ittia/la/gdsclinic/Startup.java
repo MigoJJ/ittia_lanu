@@ -1,4 +1,5 @@
 package ittia.la.gdsclinic;
+import ittia.nu.gdsclinic.CaseSelection;
 import ittia.nu.gdsclinic.CurrentDate;
 import ittia.nu.gdsclinic.FileReading;
 
@@ -9,6 +10,7 @@ public class Startup {
 		
 		FileReading.startread();
 		
+		CaseSelection.insertCode();
 		
 	}
 
