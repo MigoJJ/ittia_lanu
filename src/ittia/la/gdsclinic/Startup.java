@@ -11,6 +11,7 @@ public class Startup {
 		FileReading.startread();
 		
 		CaseSelection.insertCode();
+		System.out.println("Hello Migo WJ ~");
 		
 	}
 
