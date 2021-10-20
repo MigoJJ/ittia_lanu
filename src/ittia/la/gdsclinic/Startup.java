@@ -12,7 +12,8 @@ public class Startup {
 		
 		CaseSelection.insertCode();
 		System.out.println("Hello Migo WJ ~");
-		
+		System.out.println("Hello Migo WJ ~");
+		System.out.println("Hello Migo WJ ~");
 	}
 
 }
