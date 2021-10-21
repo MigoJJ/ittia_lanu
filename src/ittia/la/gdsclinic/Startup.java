@@ -5,15 +5,10 @@ import ittia.nu.gdsclinic.FileReading;
 
 public class Startup {
 	public static void main(String[] args) {
-		
 		CurrentDate.c_time();
-		
 		FileReading.startread();
-		
 		CaseSelection.insertCode();
-		System.out.println("Hello Migo WJ ~");
-		System.out.println("Hello Migo WJ ~");
+
 		System.out.println("Hello Migo WJ ~");
 	}
-
 }
