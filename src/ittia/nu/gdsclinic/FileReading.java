@@ -8,7 +8,7 @@ public class FileReading {
   public static void startread() {
 	  
     try {
-      File myObj = new File("./src/ittia/ius/gdsclinic/StartupMenu.txt");
+      File myObj = new File("./src/ittia/ius/gdsclinic/StartupMenu.txt"); 
       Scanner myReader = new Scanner(myObj);
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();

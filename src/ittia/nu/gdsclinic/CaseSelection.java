@@ -3,7 +3,7 @@ import java.util.*;
 
 public class CaseSelection {
 		    public static int myint; 
-		    public static String myint_c = "text";
+		    public String myint_c = "text";
 		    public static void insertCode() {
 		    	
 				  Scanner in = new Scanner (System.in);  
@@ -11,8 +11,8 @@ public class CaseSelection {
 					   int myint = in.nextInt();  
 	              System.out.println("The Number you entered is .....   " + myint);
 	              in.close();
-		    	
-				switch(myint){
+
+	              switch(myint){
 		            case 1:
 		                System.out.println("1. Program Information");
 			             FileReading.startread();
