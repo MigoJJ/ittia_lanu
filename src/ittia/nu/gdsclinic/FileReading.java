@@ -7,6 +7,7 @@ import java.util.Scanner; // Import the Scanner class to read text files
 public class FileReading {
   public static void startread() {
 	String texttitle = (CaseSelection.myint_c);
+//	String texttitle = (CaseSelection.myint_c);
 	  
     try {
       File myObj = new File(texttitle); 
