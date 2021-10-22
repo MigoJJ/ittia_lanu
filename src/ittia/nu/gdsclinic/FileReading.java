@@ -6,9 +6,10 @@ import java.util.Scanner; // Import the Scanner class to read text files
 
 public class FileReading {
   public static void startread() {
+	String texttitle = (CaseSelection.myint_c);
 	  
     try {
-      File myObj = new File("./src/ittia/ius/gdsclinic/StartupMenu.txt"); 
+      File myObj = new File(texttitle); 
       Scanner myReader = new Scanner(myObj);
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();
