@@ -12,7 +12,6 @@ class Student123{
 		return this.name;
 	}
 }
-
 public class SimpleTesting {
 	public static void main(String[] args) {	
 
