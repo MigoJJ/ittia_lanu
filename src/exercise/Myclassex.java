@@ -1,4 +1,4 @@
-package ittia.ius.gdsclinic.ex;
+package exercise;
 
 public class Myclassex {
 
