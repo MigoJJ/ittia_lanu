@@ -15,17 +15,15 @@ public class FileReading {
 				while (myReader.hasNextLine()) {
 					String data = myReader.nextLine();
 					System.out.println(data);
-				 }
+				    }
 			myReader.close();
-		} 
+		    } 
 		catch (FileNotFoundException e) {
 			System.out.println("An error occurred.");
 			e.printStackTrace();
 			}
 		String path = System.getProperty("user.dir");
 		System.out.println("Working Directory = " + path);
-		
- }
-	
 
+    }
 }

@@ -32,8 +32,9 @@ public class CaseSelection {
 			                System.out.println("i value is greater than 2 and less than 5");
 	
 		              } 
-     
-	        FileReading.startread();
-	        System.out.println("jj migo Information");
+
+		       FileReading.startread();
+		       System.out.println("jj migo Information");
+				PressAnyKeyC.main(null);
+		         }
             }
-	}

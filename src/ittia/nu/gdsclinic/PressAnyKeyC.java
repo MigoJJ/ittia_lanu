@@ -1,15 +1,26 @@
 package ittia.nu.gdsclinic;
 
-import ittia.la.gdsclinic.Startup;
-
 public class PressAnyKeyC {
+	public static void main(String[] args) {
 
-	public static void main(String args[])
-	{
-			System.out.println("Press Enter to continue");
-			try{System.in.read();}
-			catch(Exception e){}
-			
-			Startup.main(args);
-	}
+	    int i = 5;
+	    System.out.println(i + "초 동안 머무릅니다...");
+
+
+	    try {
+	      Thread.sleep(i * 1000);
+	    } catch (InterruptedException e) { }
+
+
+	    System.out.println(i + "초 동안 머물렀습니다 ~~^^");
+	    
+	    clearScreen();
+
+	  }
+
+    public static void clearScreen() {
+    		for (int i = 0; i < 80; i++)
+    			System.out.println("");
+    }
 }
+
