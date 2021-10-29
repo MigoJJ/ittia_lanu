@@ -1,0 +1,13 @@
+-------------------------------------------
+Good Doctor’s Clinic Management System
+-------------------------------------------
+
+1. outpatient department
+
+2. routine check
+
+3. laboratory results
+
+4. business
+
+-------------------------------------------
