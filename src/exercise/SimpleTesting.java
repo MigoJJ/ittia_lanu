@@ -21,5 +21,15 @@ public class SimpleTesting {
 		
 		System.out.println("Student name is : " + name2);
 		System.out.println("Doctor number is : " + student1.d_number);
+		
+		
+		DoctorCode.printType();
+    	DoctorCode Doc = new DoctorCode();
+    	System.out.println(Doc.doctor_code);
+		DoctorCode.printType();
+    	
+		
+		
+		
 	}
 }
