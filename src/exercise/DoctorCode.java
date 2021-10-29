@@ -18,6 +18,11 @@ public class DoctorCode {
 	       System.out.println(clinic_phonenumber + " is an clinic_phonenumber");	
 	       System.out.println(clinic_faxnumber + " is an clinic fax");	
 	       System.out.println(clinic_address + " is an clinic address");	
+	       System.out.println(clinic_faxnumber + " is an clinic fax");	
+	       System.out.println(clinic_address + " is an clinic address");	
+	       	       
+	       
+	       
 	       
 	    }
 }
