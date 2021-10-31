@@ -9,7 +9,11 @@ public class DoctorCode {
 	 static String clinic_address;
 	 
 	    DoctorCode(){
-	    	this("39890","김태호",	50182,	"Tel   02-501-1828","Fax   02-3452-2192",
+	    	this("39890",
+	    			"김태호",
+	    			50182,
+	    			"Tel   02-501-1828",
+	    			"Fax   02-3452-2192",
 	    			"서울 강남구 도곡로 205 (역삼동) YK bldg 2층  지디스내과의원");
 	    }   
 		 DoctorCode (String doctor_code, String b, int c, String d,String e,String f){
@@ -20,4 +24,5 @@ public class DoctorCode {
 	    	   clinic_faxnumber = e;
 	    	   clinic_address = f;
 		 }
+
 }
