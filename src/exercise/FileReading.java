@@ -1,4 +1,4 @@
-package ittia.nu.gdsclinic;
+package exercise;
 
 import java.io.File;  // Import the File class
 import java.io.FileNotFoundException;  // Import this class to handle errors
@@ -8,7 +8,7 @@ import ittia.la.gdsclinic.Startup;
 
 public class FileReading {
 	public static void startread() {
-		String texttitle = (CaseSelection.myint_c);
+		String texttitle = (D_code_selection.myint_c);
 		try {
 			File myObj = new File(texttitle); 
 			Scanner myReader = new Scanner(myObj);

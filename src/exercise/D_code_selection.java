@@ -1,10 +1,9 @@
 package exercise;
 
 import java.util.Scanner;
-import ittia.nu.gdsclinic.FileReading;
 
 public class D_code_selection {
-	static String myint_c ="";
+	static String myint_c ="./src/ittia/ius/gdsclinic/StartupMenu.txt";
 	public static void dcs() {
 		
 		FileReading.startread();
@@ -25,8 +24,5 @@ public class D_code_selection {
     default:
         System.out.println("i value is greater than 2 and less than 5");
        } 
-	}
-//FileReading.startread();
-//System.out.println("jj migo Information");
-//PressAnyKeyC.main(null);
-}
+	FileReading.startread(); 
+}}
