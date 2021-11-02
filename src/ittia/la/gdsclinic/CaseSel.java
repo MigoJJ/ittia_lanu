@@ -1,12 +1,14 @@
-package ittia.nu.gdsclinic;
-import java.util.*;  
+package ittia.la.gdsclinic;
+import java.util.*;
 
-public class CaseSelection {
+import ittia.nu.gdsclinic.FileRead;  
 
-		    static String myint_c = "./src/ittia/ius/gdsclinic/StartupMenu.txt";
+public class CaseSel {
+
+		    public static String myint_c = "./src/ittia/us/gdsclinic/StartupMenu.txt";
 		    public static void insertCode() {
 		    	  
-		    	FileReading.startread();
+		    	FileRead.startread();
 		    	  
 				Scanner in = new Scanner (System.in);  
 	                   System.out.print ("Enter a Choice Number :   ");
@@ -16,17 +18,17 @@ public class CaseSelection {
 
 		          switch(myint){
 			            case 1:
-	                       myint_c = "./src/ittia/ius/gdsclinic/version_infomation.txt";break;
+	                       myint_c = "./src/ittia/us/gdsclinic/Version_infomation.txt";break;
 			            case 2:
-			                myint_c = "./src/ittia/ius/gdsclinic/DoctorLogin.txt";break;
+			                myint_c = "./src/ittia/us/gdsclinic/DoctorLogin.txt";break;
 			            case 3:
-			                myint_c = "./src/ittia/ius/gdsclinic/ClinicMamange.txt";break;
+			                myint_c = "./src/ittia/us/gdsclinic/ClinicMamange.txt";break;
 			            default:
 			                System.out.println("i value is greater than 2 and less than 5");
      		              } 
 
-		       FileReading.startread();
+		       FileRead.startread();
 		       System.out.println("jj migo Information");
-				PressAnyKeyC.main(null);
+//				PressAnyKeyC.main(null);
       }
 }

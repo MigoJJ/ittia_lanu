@@ -3,7 +3,7 @@ package ittia.nu.gdsclinic;
 import java.util.*;
 import java.text.*;
 
-public class CurrentDate {
+public class CurrDate {
 
    public static void c_time() {
       Date dNow = new Date( );
