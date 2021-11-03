@@ -4,9 +4,10 @@ import java.io.IOException;
 import java.util.*;
 import ittia.nu.gdsclinic.*;  
 
-public class CaseSel {
+public class CaseSel1 {
 
 		    public static String myint_c = "./src/ittia/us/gdsclinic/StartupMenu.txt";
+			public static String myint_cc;
 		    public static void insertCode() throws IOException {
 		    	  
 		    	FileRead.startread();

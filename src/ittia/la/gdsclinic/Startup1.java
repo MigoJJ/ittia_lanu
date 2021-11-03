@@ -1,14 +1,14 @@
-package ittia.nu.gdsclinic;
+package ittia.la.gdsclinic;
 
 import java.io.IOException;
+import ittia.nu.gdsclinic.*;
 
-public class Startup {
+public class Startup1 {
 	public static void main(String[] args) throws IOException {
 		
 		CurrDate.c_time();
-		CaseSel.insertCode();
-		System.out.println("Hello Migo WJ ~");
-		
+		CaseSel1.insertCode();
+				System.out.println("Hello Migo WJ ~");
 		pa();		
 	}
 	
@@ -16,6 +16,6 @@ public class Startup {
         System.out.println("Press enter to continue...");
         System.in.read();
         System.out.println("Press enter to continued ...................");
-//        main(null);
+        main(null);
     }
 }

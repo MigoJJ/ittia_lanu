@@ -1,13 +1,14 @@
 package ittia.nu.gdsclinic;
 
-import java.io.File;  // Import the File class
+import java.io.File;  
+// Import the File class
 import java.io.FileNotFoundException;
 import java.util.Scanner; // Import the Scanner class to read text files
-import ittia.la.gdsclinic.CaseSel;
 
 public class FileRead {
 	public static void startread() {
 		String texttitle = (CaseSel.myint_c);
+		System.out.println(texttitle);
 		try {
 			File myObj = new File(texttitle); 
 			Scanner myReader = new Scanner(myObj);
