@@ -1,6 +1,7 @@
 package ittia.nu.gdsclinic;
 
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Startup {
 	public static void main(String[] args) throws IOException {
@@ -14,8 +15,12 @@ public class Startup {
 	
 	static void pa() throws IOException {
         System.out.println("Press enter to continue...");
-        System.in.read();
+		Scanner scanner = new Scanner(System.in);
+		int N = scanner.nextInt();
+        System.out.println(N);
+
+        scanner.close();
         System.out.println("Press enter to continued ...................");
-//        main(null);
+        main(null);
     }
-}
+	}
