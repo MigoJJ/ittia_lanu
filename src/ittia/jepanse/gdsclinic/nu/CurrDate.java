@@ -1,4 +1,4 @@
-package ittia.nu.gdsclinic;
+package ittia.jepanse.gdsclinic.nu;
 
 import java.util.*;
 import java.text.*;
