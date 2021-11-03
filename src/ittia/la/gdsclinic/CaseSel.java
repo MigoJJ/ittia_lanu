@@ -1,12 +1,13 @@
 package ittia.la.gdsclinic;
-import java.util.*;
 
-import ittia.nu.gdsclinic.FileRead;  
+import java.io.IOException;
+import java.util.*;
+import ittia.nu.gdsclinic.*;  
 
 public class CaseSel {
 
 		    public static String myint_c = "./src/ittia/us/gdsclinic/StartupMenu.txt";
-		    public static void insertCode() {
+		    public static void insertCode() throws IOException {
 		    	  
 		    	FileRead.startread();
 		    	  
@@ -29,6 +30,8 @@ public class CaseSel {
 
 		       FileRead.startread();
 		       System.out.println("jj migo Information");
+		       PressAny.main(null);
 //				PressAnyKeyC.main(null);
       }
+
 }
