@@ -1,6 +1,7 @@
 package ittia.jepanse.gdsclinic.nu;
 
 import java.io.IOException;
+
 import java.util.Scanner;
 
 public class CaseSel {
@@ -32,8 +33,6 @@ public class CaseSel {
 				    }
 				        System.out.println("myint_c   :   " + CaseSel.myint_c);
 				        fr.startread(CaseSel.myint_c);
-				        
-				        
-	    }
-	    
+				        CaseSel.myint_c = "./src/ittia/jepanse/gdsclinic/ius/StartupMenu.txt";
+	        }
 }

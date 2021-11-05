@@ -8,12 +8,12 @@ class Startup {
 		
 		CurrDate.c_time();
 		CaseSel cs = new CaseSel();
-				cs.insertCode();
+				 cs.insertCode();
 				
 		PressAnyKey.PAK();		
 		
 		System.out.println("Hello Migo WJ ~");
-}
-
-
+    	System.out.println(System.lineSeparator().repeat(10));
+		main(null);
+	}
 }
