@@ -1,4 +1,4 @@
-package ittia.jepanse.gdsclinic.nu;
+package Ex;
 
 import java.io.IOException;
 import java.util.Scanner;

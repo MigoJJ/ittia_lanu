@@ -3,6 +3,8 @@ package ittia.jepanse.gdsclinic.la;
 import ittia.jepanse.gdsclinic.nu.*;
 import java.io.IOException;
 
+import Ex.DoctorId;
+
 class st {
 	public static void main(String[] args) throws IOException {
 		

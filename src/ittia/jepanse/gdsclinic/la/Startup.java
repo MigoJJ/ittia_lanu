@@ -3,7 +3,7 @@ package ittia.jepanse.gdsclinic.la;
 import ittia.jepanse.gdsclinic.nu.*;
 import java.io.IOException;
 
-class Startup {
+public class Startup {
 	public static void main(String[] args) throws IOException {
 		CurrDate.c_time();
 		

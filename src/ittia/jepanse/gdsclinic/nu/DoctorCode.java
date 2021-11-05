@@ -14,25 +14,20 @@ public class DoctorCode {
 	
 	public static void insertDR_Code() throws IOException {
 		Scanner clinic = new Scanner (System.in);  
-				System.out.print ("Enter a Doctor's Number :   ");
+				System.out.print ("--------   Enter a Doctor's Number :  ----- ");
 			    int doctorselection = clinic.nextInt();
-		 		clinic.close(); 
+//		 		clinic.close(); 
 			    
 		DoctorCode dc = new DoctorCode();	    	
 			    
 		switch(doctorselection){ 
-			case 1:
-				dc.doctor_code  = "38963"; dc.doctor_name  = "김태호"; 	break;
-			case 2:
-				dc.doctor_code  = "39890"; dc.doctor_name  = "고재준"; 	break;
-			case 46285:
-				dc.doctor_code  = "46285"; dc.doctor_name  = "이찬주"; 	break;        
-			case 4:
-				dc.doctor_code  = "88000"; dc.doctor_name  = "최이령"; 	break;
-			case 5:
-				dc.doctor_code  = "53671"; dc.doctor_name  = "이인희"; 	break;
+			case 38963: dc.doctor_code  = "38963"; dc.doctor_name  = "김태호"; 	break;
+			case 39890: dc.doctor_code  = "39890"; dc.doctor_name  = "고재준"; 	break;
+			case 46285: dc.doctor_code  = "46285"; dc.doctor_name  = "이찬주"; 	break;        
+			case 88000: dc.doctor_code  = "88000"; dc.doctor_name  = "최이령"; 	break;
+			case 53671: dc.doctor_code  = "53671"; dc.doctor_name  = "이인희"; 	break;
 			default:
-            	System.out.println("i value is greater than 1 and less than 5");
+            	System.out.println("Please reinsert number ... ");
 		}
 	    System.out.println("-----------------------------------------------------------------------");
 	    System.out.println("   의사면허 번호     :   " + dc.doctor_code);
