@@ -1,7 +1,6 @@
 package ittia.jepanse.gdsclinic.nu;
 
 import java.io.IOException;
-
 import java.util.Scanner;
 
 public class CaseSel {

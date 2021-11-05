@@ -5,8 +5,8 @@ import java.io.IOException;
 
 class Startup {
 	public static void main(String[] args) throws IOException {
-		
 		CurrDate.c_time();
+		
 		CaseSel cs = new CaseSel();
 				 cs.insertCode();
 				
