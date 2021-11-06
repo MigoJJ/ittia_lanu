@@ -16,7 +16,7 @@ public class DoctorCode {
 		Scanner clinic = new Scanner (System.in);  
 				System.out.print ("--------   Enter a Doctor's Number :  ----- ");
 			    int doctorselection = clinic.nextInt();
-//		 		clinic.close(); 
+
 			    
 		DoctorCode dc = new DoctorCode();	    	
 			    
@@ -30,8 +30,8 @@ public class DoctorCode {
             	System.out.println("Please reinsert number ... ");
 		}
 	    System.out.println("-----------------------------------------------------------------------");
-	    System.out.println("   의사면허 번호     :   " + dc.doctor_code);
-	    System.out.println("   의사 이름        :   " + dc.doctor_name + "\n");
+	    System.out.printf("[%20s] %15s%n" , "의사면허번호" , dc.doctor_code);
+	    System.out.printf("[%20s] %15s%n" , "의사이름" , dc.doctor_name);
 	    System.out.println("   병원 코드        :   " + clinic_code);
 	    System.out.println("   주소            :   " + clinic_address);
 	    System.out.println("   전화번호         :   " + clinic_phonenumber);
@@ -39,5 +39,7 @@ public class DoctorCode {
 	    System.out.println("   이메일           :   " + clinic_email);
 	    System.out.println("-----------------------------------------------------------------------");
 
+	    
+// 		clinic.close(); 
 		}
 }
