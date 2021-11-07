@@ -3,6 +3,8 @@ package ittia.jepanse.gdsclinic.nu;
 import java.io.IOException;
 import java.util.Scanner;
 
+import ittia.jepanse.gdsclinic.ar.PrintFormat_f;
+
 public class DoctorCode {
 	String doctor_code;
 	String doctor_name;
@@ -17,7 +19,6 @@ public class DoctorCode {
 				System.out.print ("--------   Enter a Doctor's Number :  ----- ");
 			    int doctorselection = clinic.nextInt();
 
-			    
 		DoctorCode dc = new DoctorCode();	    	
 			    
 		switch(doctorselection){ 
@@ -30,16 +31,13 @@ public class DoctorCode {
             	System.out.println("Please reinsert number ... ");
 		}
 	    System.out.println("-----------------------------------------------------------------------");
-	    System.out.printf("[%20s] %15s%n" , "의사면허번호" , dc.doctor_code);
-	    System.out.printf("[%20s] %15s%n" , "의사이름" , dc.doctor_name);
-	    System.out.println("   병원 코드        :   " + clinic_code);
-	    System.out.println("   주소            :   " + clinic_address);
-	    System.out.println("   전화번호         :   " + clinic_phonenumber);
-	    System.out.println("   팩스번호         :   " + clinic_faxnumber);
-	    System.out.println("   이메일           :   " + clinic_email);
+	    PrintFormat_f.pf_space(dc.doctor_code , dc.doctor_name);
+	    System.out.println("   병원코드        :   " + clinic_code);
+	    System.out.println("   병원주소        :   " + clinic_address);
+	    System.out.println("   전화번호        :   " + clinic_phonenumber);
+	    System.out.println("   팩스번호        :   " + clinic_faxnumber);
+	    System.out.println("   이메일          :   " + clinic_email);
 	    System.out.println("-----------------------------------------------------------------------");
-
-	    
 // 		clinic.close(); 
 		}
 }

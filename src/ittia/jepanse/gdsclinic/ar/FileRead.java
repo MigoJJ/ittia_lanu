@@ -6,7 +6,9 @@ import java.io.FileNotFoundException;
 
 public class FileRead {
 	public void startread(String texttitle) {
-		System.out.println(texttitle);
+		String path = System.getProperty("user.dir");
+		System.out.println("Working Directory = " + path);
+		System.out.println("Working Filename  = " + texttitle);
 
 		try    {
 					File textDirName = new File(texttitle); 
@@ -22,8 +24,6 @@ public class FileRead {
 					System.out.println("An error occurred.");
 					e.printStackTrace();
 		}
-		String path = System.getProperty("user.dir");
-		System.out.println("Working Directory = " + path);
-   }
+    }
 
 }

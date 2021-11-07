@@ -7,6 +7,7 @@ import java.io.IOException;
 
 public class Startup {
 	public static void main(String[] args) throws IOException {
+		System.out.println(System.lineSeparator().repeat(10));
 		CurrDate.c_time();
 		
 		CaseSel cs = new CaseSel();
@@ -15,7 +16,6 @@ public class Startup {
 		PressAnyKey.PAK();		
 		
 		System.out.println("Hello Migo WJ ~");
-    	System.out.println(System.lineSeparator().repeat(10));
 		main(null);
 	}
 }
