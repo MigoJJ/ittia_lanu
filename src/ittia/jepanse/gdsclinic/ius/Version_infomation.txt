@@ -1,43 +1,43 @@
---------------------------------------------------------------------
-      Good Doctors’ Clinic
---------------------------------------------------------------------
-
-Version         -- V 0.1
-Made by         -- Jae Joon Koh M.D.
-
-Ubuntu------------------------------
-Distributor ID:	    Ubuntu
-Description:	    Ubuntu 20.04.3 LTS
-Release:	        20.04
-Codename:	        focal
-
-JAVA--------------------------------
-openjdk 11.0.11 2021-04-20
-
-OpenJDK Runtime Environment 
-     (build 11.0.11+9-Ubuntu-0ubuntu2.20.04)
-OpenJDK 64-Bit Server VM 
-     (build 11.0.11+9-Ubuntu-0ubuntu2.20.04, mixed mode, sharing)
-
-Eclipse-----------------------------
-Eclipse IDE for Java Developers (includes Incubating components)
-
-Version: 2021-06 (4.20.0)
-Build id: 20210612-2011
-OS: Linux, v.5.11.0-36-generic, x86_64 / gtk 3.24.20, WebKit 2.32.4
-Java vendor: Ubuntu
-Java runtime version: 11.0.11+9-Ubuntu-0ubuntu2.20.04
-Java version: 11.0.11
-------------------------------------------
-ls (GNU coreutils) 8.32
-Copyright (C) 2020 Free Software Foundation, Inc.
-라이선스 GPLv3+: GNU GPL 버전 3 이상 <https://gnu.org/licenses/gpl.html>/
-이것은 자유 소프트웨어입니다: 자유롭게 수정 및 재배포할 수 있습니다.
-법률이 허용하는 한 어떤 보증도 없습니다.
-
-Richard M. Stallman 및 David MacKenzie이(가) 만들었습니다.
---------------------------------------------------------------------
-Distributor ID:	Ubuntu
-Description:	Ubuntu 21.10
-Release:	21.10
-Codename:	impish
+	--------------------------------------------------------------------
+	      Good Doctors’ Clinic
+	--------------------------------------------------------------------
+	
+	Version         -- V 0.1
+	Made by         -- Jae Joon Koh M.D.
+	
+	Ubuntu------------------------------
+	Distributor ID:	    Ubuntu
+	Description:	    Ubuntu 20.04.3 LTS
+	Release:	        20.04
+	Codename:	        focal
+	
+	JAVA--------------------------------
+	openjdk 11.0.11 2021-04-20
+	
+	OpenJDK Runtime Environment 
+	     (build 11.0.11+9-Ubuntu-0ubuntu2.20.04)
+	OpenJDK 64-Bit Server VM 
+	     (build 11.0.11+9-Ubuntu-0ubuntu2.20.04, mixed mode, sharing)
+	
+	Eclipse-----------------------------
+	Eclipse IDE for Java Developers (includes Incubating components)
+	
+	Version: 2021-06 (4.20.0)
+	Build id: 20210612-2011
+	OS: Linux, v.5.11.0-36-generic, x86_64 / gtk 3.24.20, WebKit 2.32.4
+	Java vendor: Ubuntu
+	Java runtime version: 11.0.11+9-Ubuntu-0ubuntu2.20.04
+	Java version: 11.0.11
+	------------------------------------------
+	ls (GNU coreutils) 8.32
+	Copyright (C) 2020 Free Software Foundation, Inc.
+	라이선스 GPLv3+: GNU GPL 버전 3 이상 <https://gnu.org/licenses/gpl.html>/
+	이것은 자유 소프트웨어입니다: 자유롭게 수정 및 재배포할 수 있습니다.
+	법률이 허용하는 한 어떤 보증도 없습니다.
+	
+	Richard M. Stallman 및 David MacKenzie이(가) 만들었습니다.
+	--------------------------------------------------------------------
+	Distributor ID:	Ubuntu
+	Description:	Ubuntu 21.10
+	Release:	21.10
+	Codename:	impish

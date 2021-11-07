@@ -2,6 +2,9 @@ package ittia.jepanse.gdsclinic.nu;
 
 import java.io.IOException;
 import java.util.Scanner;
+
+import ittia.jepanse.gdsclinic.ar.FileRead;
+import ittia.jepanse.gdsclinic.ar.PressAnyKey;
 import ittia.jepanse.gdsclinic.la.Startup;
 
 public class CaseSel {

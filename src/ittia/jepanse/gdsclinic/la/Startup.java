@@ -1,5 +1,7 @@
 package ittia.jepanse.gdsclinic.la;
 
+import ittia.jepanse.gdsclinic.ar.CurrDate;
+import ittia.jepanse.gdsclinic.ar.PressAnyKey;
 import ittia.jepanse.gdsclinic.nu.*;
 import java.io.IOException;
 

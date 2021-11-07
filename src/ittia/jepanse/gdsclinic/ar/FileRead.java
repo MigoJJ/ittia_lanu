@@ -1,4 +1,4 @@
-package ittia.jepanse.gdsclinic.nu;
+package ittia.jepanse.gdsclinic.ar;
 
 import java.io.File;  
 import java.util.Scanner;
@@ -9,8 +9,8 @@ public class FileRead {
 		System.out.println(texttitle);
 
 		try    {
-					File myObj = new File(texttitle); 
-					Scanner myReader = new Scanner(myObj);
+					File textDirName = new File(texttitle); 
+					Scanner myReader = new Scanner(textDirName);
 		
 					while (myReader.hasNextLine()) {
 							String data = myReader.nextLine();
