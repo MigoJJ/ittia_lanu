@@ -6,5 +6,4 @@ public class PrintFormat_f {
 	    System.out.printf("[%15s] %20s%n" , "의사이름" , dcdc);
 	    System.out.printf("[%15s] %22s%n" , "면허번호" , dcname);
 	}
-
 }
