@@ -22,6 +22,7 @@ public class CaseSel {
 				switch(myint){
 			        case 1: myint_c = wd + "/Version_infomation.txt";	returnToHome(); break;
 			        case 2: myint_c = wd + "/DoctorLogin.txt";
+			        			fr.startread(CaseSel.myint_c); 
 			        			DoctorCode.insertDR_Code();
 			        			break;
 			        case 3: myint_c = wd + "/ClinicMamange.txt";			returnToHome(); break;
