@@ -5,26 +5,28 @@ import java.util.Scanner;
 
 import ittia.jepanse.gdsclinic.ar.FileRead;
 import ittia.jepanse.gdsclinic.ar.PressAnyKey;
-import ittia.jepanse.gdsclinic.la.Startup;
 
 public class CaseSel {
 		static String wd = "./src/ittia/jepanse/gdsclinic/ius";
-	    static String myint_c = wd + "/StartupMenu.txt";
+	    static String mypage = wd + "/StartupMenu.txt";
        
 	    public void insertCode() throws IOException{
 		       FileRead fr = new FileRead();
-		       fr.startread(CaseSel.myint_c);
+		       fr.startRead(CaseSel.mypage);
 			       
 				Scanner dcin = new Scanner (System.in);  
 				    System.out.print ("Enter a Choice Number :   ");
 				    int myint = dcin.nextInt();  
 				    
 				switch(myint){
-			        case 1: myint_c = wd + "/Version_infomation.txt";	returnToHome(); break;
-			        case 2: myint_c = wd + "/DoctorLogin.txt";
+			        case 1: mypage = wd + "/Version_infomation.txt";	returnToHome(); break;
+			        case 2: mypage = wd + "/DoctorLogin.txt";
+			        			fr.startRead(CaseSel.mypage); 
 			        			DoctorCode.insertDR_Code();
+			        			// insert directory list class
+			        			returnToHome();
 			        			break;
-			        case 3: myint_c = wd + "/ClinicMamange.txt";			returnToHome(); break;
+			        case 3: mypage = wd + "/ClinicMamange.txt";			returnToHome(); break;
 			        
 			        default:System.out.println("i value is less than 4...");
 				}
@@ -35,9 +37,10 @@ public class CaseSel {
 	    
 	    public void returnToHome() throws IOException {
 	       	FileRead fr = new FileRead();
-		       fr.startread(CaseSel.myint_c); 
-		   		CaseSel.myint_c = wd + "/StartupMenu.txt";
+	   			CaseSel.mypage = wd + "/StartupMenu.txt";
     			PressAnyKey.PAK();
+		       fr.startRead(CaseSel.mypage);
+		       
     			Startup.main(null);
 	    }  
 }

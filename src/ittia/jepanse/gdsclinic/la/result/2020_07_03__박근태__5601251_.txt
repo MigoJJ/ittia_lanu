@@ -1,0 +1,285 @@
+*********************************************************
+
+               GDS Clinic Routine Check Result           
+
+*********************************************************
+
+ 이름       :    박근태       0703-20
+
+나이       :        64세
+성별       :          m
+
+ID         :    5601251093123
+검진일      :      2020_07_03
+판정날      :   July 15, 2020
+
+------------------------------------------------------------Summary
+박근태0703-20
+1.혈압은 조절이 잘 되고 있으니 (120/82, 이전; 117/71, 156/98, 144/95)
+   지금과 같이 꾸준히 혈압약 복용을 하시는 것이 좋겠습니다.
+2.체지방분석 결과 복부 비만은 없으나 약 74.1(이전; 7.0, 9.4, 10.2, 7.9, 8.4, 8.1kg의 
+   체중감량이 이상적입니다.  식이 요법 및 적절한 운동이 필요합니다.
+3.MCV의 약간의 증가가 있습니다. 음주로 인한 비타민 결핍 등에 의한 소견일 수도 있습니다. 
+  과음을 하시는 분이 아니면 일시적이거나 비특이적인 소견으로 보입니다.
+4.혈액검사에서 비타민 D 수치(18.1)가 감소되어 있어서 적절한 태양광선에 노출하고 
+   비타민 D를 충분히 섭취하고 치료 받으시기 바랍니다.
+5.A형간염및 B형간염 항체가 있습니다. 이는 과거 감염및 면역상태를 나타냅니다. 
+  추가적인 예방접종은 필요하지 않습니다.
+6.고지혈증은 약물복용으로 잘 조절되고 있습니다. 
+  (콜레스테롤(182, 이전; 159, 265, 265, 246, 222. 283), LDL(98, 이전; 83, 172, 175, 164, 
+  153, 204) 
+7.작은 신장 낭종과 갑상선 낭종이 있습니다. 
+   대개의 낭종은 임상적인 중요성이 별로 없습니다.  추적 검사를 받으십시요.
+8.초음파에서 약간의 전립선비대(benign prostate hypertrophy)가 있습니다. 
+   증상이 없으면 지켜보셔도 됩니다. 
+9.동맥경화증 
+   1. 지질(콜레스테롤) 수치 정상화 2. 정상 혈압 유지 3. 금연 4. 혈당 조절 5. 체중 조절
+   6. 규칙적인 운동하시기 바랍니다. 
+
+미란성 위염이 있습니다.
+    과식, 과음, 자극적인 음식을 삼가시고 규칙적인 식사를 하시는 것이 좋겠습니다.
+    조직검사는 단순염증으로 나왔으니 걱정마시고 1년후 내시경받아보시기 바랍니다.
+
+그 밖에 종합 혈액 검사, 심전도 검사, 폐기능 검사, 소변 검사, 방사선 검사 등에 이상 소견 없습니다.  
+
+감사합니다.
+
+------------------------------------------------------------BMI
+체질량지수의 판독 결과는 과체중 입니다.
+당신의 신장은 169.0 cm 이고, 현재 체중은  67.0 kg 입니다.
+  따라서 체질량지수..BMI..는 23.5 로 과체중입니다.
+표준 체중은 57.1 kg 으로 -9.9kg 조절하시는 것이 좋겠습니다.
+ 
+------------------------------------------------------------Hypertension
+당신의 혈압은 120.0 / 82.0 mmHg 고혈압 전단계 입니다.
+  규칙적인 운동, 식이요법과 함께 자주 혈압을 
+  측정하는 것이 좋겠습니다. 계속 높으면 약물치료가 필요할 수도 있습니다.
+
+------------------------------------------------------------PFT
+노력성 폐활량 
+     (FVC, Forced vital capacity)                      :  120.0%
+1초간 노력성 호기량 
+     (FEV1, forced expired volume in one second)       :  128.0%
+비율 
+     (FEV1/FVC, ratio of the FEV1 / FVC of the lungs.) :  105.0%
+
+ 당신의 폐기능은 정상입니다.
+
+------------------------------------------------------------Chest PA
+정상
+
+------------------------------------------------------------Thyroid US
+a 2.5mm cyst, right lobe
+
+------------------------------US Aorta
+mild atherosclerotic change
+
+------------------------------CUS carotid artery
+mild atherosclerotic change, left bulb
+
+------------------------------------------------------------Others US
+BPH(26cc)
+
+------------------------------US Liver
+정상
+
+------------------------------US Biliary system
+정상
+
+------------------------------US Pancreas
+mild atherosclerotic change
+
+------------------------------US Kidney
+a 9mm RK cyst
+
+------------------------------------------------------------US conclusion
+신장 낭종
+전립선 비대
+동맥경화
+갑상선 낭종
+
+------------------------------------------------------------GFS
+Esophagus  :  Free
+Stomach    :  Several mucosal erosions were found on the antrum.(#!X1: PW of antrum #2X1: LC of antrum)
+Duodenum   :  Free
+
+Conclusion :  
+Erosive gastritis(#1,#2)
+
+CLO test   : 헬리코박터균 검사는 음성입니다.
+
+Biopsy     : 위내시경에서 조직검사를 시행하였습니다.
+
+__________________________
+<Gross Findings>
+
+S20-22344
+1.Received in formalin, consists of one small piece of grayish-tan 
+mucosal tissue, measuring 0.4x0.2x0.1 cm.
+Totally embedded. Entire sections.(1 HE)
+2.Received in formalin, consists of one small piece of grayish-tan 
+mucosal tissue, measuring 0.2x0.2x0.2 cm.
+Totally embedded. Entire sections.(1 HE)
+<Microscopic Findings>
+
+The Updated Sydney System
+
+. H.Pylori (H.Pylori-like organism) ----- none
+. Inflammation (mononuclear infiltrate) - mild
+. Activity (neutrophilic infiltrate) ---- mild
+. Atrophy ------------------------------- moderate
+. Intestinal metaplasia------------------ moderate
+<Diagnosis>
+
+1.Stomach, antrum, PW, endoscopic biopsy:
+
+  Chronic atrophic gastritis, active,
+ with intestinal metaplasia and erosion.
+
+2.Stomach, antrum, LC, endoscopic biopsy: 
+
+  Chronic erosive gastritis, inactive, with xanthoma.
+<Comment>
+
+Pathologist 주희재 M.D. [면허번호 32990] [전문의번호 342] (T:031-698-2728)
+위의 결과는 TCM Lab으로 위탁한 내용입니다.
+*********************************************************
+              GDS Clinic Laboratory Result       
+*********************************************************
+
+당신의 혈액 형은  B 형 ,  Rh Positive 입니다.
+응급실에서 수혈이 필요한 경우 필요한 혈액형을 신속하게 판단할 수 있는 중요한 정보 입니다.
+
+ Hepatitis : A형 간염의 항체가 있습니다. 예방접종의 필요가 없습니다.
+
+ Hepatitis : B형 간염의 항체가 있습니다. 예방접종의 필요가 없습니다.
+
+B형 간염 보균자가 아님을 나타내며 만성 B형 간염에 감염되지 않았음을 의미합니다. 
+이미 B형 간염으로부터 보호되고 있으며 B형 간염 예방접종을 받을 필요가 없는 
+것을 의미합니다.
+
+ Hepatitis : C형 간염이 없습니다.
+---------------------------------------------------------------------------
+<<   Blood Chemistry data   >> 
+00704          T.Protein         7.3     6.4-8.2           g/dL        .
+00704            Albumin         4.5     3.8-5.3           g/dL        .
+00704        T.Bilirubin        0.31     0.20-1.20         mg/dL       .
+00704          AST(sGOT)          19     0-40              IU/L        .
+00704          ALT(sGPT)          17     0-40              IU/L        .
+00704                ALP          63     35-130            U/L         .
+00704         GGT(γ-GTP)          21     0.0-73.0          IU/L        .
+---------------------------------------------------------------------------
+        ___Muscle Enzyme___ 
+00704          Uric acid         4.1     3.9-8.3           mg/dL       .
+00704                LDH         321     200-450           U/L         .
+00704      CK,total(CPK)         133     46-171            U/L         .
+---------------------------------------------------------------------------
+        ___lipid battery Function___ 
+00704 Cholesterol, total         182     110-200           mg/dL       .
+00704       Triglyceride          77     0.0-150           mg/dL       .
+00704    HDL-cholesterol          72     0-40              mg/dL       High
+00704    LDL-cholesterol          98     0-100             mg/dL       .
+---------------------------------------------------------------------------
+        ___Pancreas Enzyme___ 
+00703          S_Glucose          92     70-100            mg/dL       .
+00704              HbA1C         5.8     4.0-6.4           %           .
+00704            Amylase          78     28-110            U/L         .
+---------------------------------------------------------------------------
+        ___Reanl Function___ 
+00704                BUN        18.0     8.0-23.0          mg/dL       .
+00704         Creatinine        0.84     0.30-1.30         mg/dL       .
+00704       Calcium (Ca)         9.6     8.6-10.4          mg/dL       .
+00704     Phosphorus (P)         3.7     2.4-5.1           mg/dL       .
+00704        Sodium (Na)         143     135-145           mmol/L      .
+00704      Chloride (Cl)         106     98-110            mmol/L      .
+00704      Potassium (K)         4.4     3.5-5.5           mmol/L      .
+---------------------------------------------------------------------------
+<<   Complete Blood Counts Data   >> 
+00703          WBC count        7.67     4.00-11.00        천/㎕         .
+00703          RBC count        4.26     4.5-5.9           백만/㎕        Low
+00703         Hemoglobin        14.0     12.5-17.5         g/㎗         .
+00703         Hematocrit        43.4     38.0-53.0         %           .
+00703                MCV       101.9     80-100            fL          High
+00703                MCH        32.8     26.0-34.0         pg          .
+00703               MCHC        32.2     26.0-34.0         g/㎗         .
+00703                RDW        14.0     12.1-16.2         %           .
+00704          Iron (Fe)          97     49-182            ug/dL       .
+00704               TIBC         373     240-451           ug/dL       .
+00703           Platelet         285     140-400           천/㎕         .
+00703                MPV         8.4     8.0-12.0          fL          .
+00703                PCT       0.241     0.100-0.500       %           .
+00703                PDW        16.5     8.0-18.0          %           .
+---------------------------------------------------------------------------
+        ___WBC Differential count___ 
+00703         Lymphocyte        43.7     20.0-45.0         %           .
+00703           Monocyte         7.5     0.0-10.0          %           .
+00703    Neutrophil seg.        47.0     40.0-75.0         %           .
+00703         Eosinophil         1.0     0.0-6.0           %           .
+00703           Basophil         0.8     0.0-2.0           %           .
+00703              Other           0     0-1                           .
+00704                ESR           7     0.0-15            mm/hrs      .
+---------------------------------------------------------------------------
+<<   Tumor Markers   >> 
+00704                AFP         5.0     0.0-8.1           ng/mL       .
+00704                CEA        1.88     0.0-5.0           ng/mL       .
+00704             CA19-9        1.20     0.0-37.0          U/mL        .
+00704    PSA (total PSA)        0.35     0.0-4             ng/mL       .
+00704             CRP 정량         0.1     0.1-0.5           mg/dL       .
+---------------------------------------------------------------------------
+<<   Thyroid Function Test   >> 
+00704                TSH        2.72     0.55-4.78         mIU/L       .
+00704                 T4         7.4     4.5-10.9          ㎍/dL        .
+---------------------------------------------------------------------------
+<<   Vitamin D   >> 
+00704        25-OH-Vit.D        18.1     20-100            ng/mL       Low
+
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+<<   Blood Typing   >> 
+00704          ABO혈액형(자동화)              B           
+00704          Rh type(자동화)             Positive    
+---------------------------------------------------------------------------
+<<  Inflammation Test  >>
+00704          RF 정성                    Negative    
+00704          RPR정밀                    Non-Reactive(<0.2)
+00704          HIV Ab(AIDS Ab)          Negative    
+---------------------------------------------------------------------------
+<<  Hepatitis  >>
+00704          HAV-Ab IgG               Pos.(> 100.0)
+00704          HBsAg                    Neg.(0.16)  
+00704          HBsAb                    Pos.(> 1000.00)
+00704          HCV Ab(일반)               Negative    
+---------------------------------------------------------------------------
+  << Urine Chemical Test  >>  
+00703          Specific gravity           1.020                    
+00703          PH                         5.0                      
+00703          Leukocytes                 Negative                 
+00703          Nitrite                    Negative                 
+00703          Proteins                   Negative                 
+00703          Glucose                    Negative                 
+00703          Ketones                    Negative                 
+00703          Urobilinogen               Negative                 
+00703          Bilirubin                  Negative                 
+00703          Blood                      Negative                 
+  ___ Urine Microscopic Test ___   
+00703          WBC                        0 - 1                    
+00703          RBC                        0 - 1                    
+00703          Epithelial cells           0 - 1                    
+00703          Bacteria                   Not found                
+00703          Crystals                   Not found                
+00703          Casts                      Not found                
+00703          Others                     Not found                
+---------------------------------------------------------------------------
+  << Stool Test  >>  
+
+
+
+
+
+
+___  <<  Abnormal Laboratory data  >> ___
+ 
+박근태            HDL-cholesterol     72                   0-40      High
+박근태            RBC count           4.26              4.5-5.9       Low
+박근태            MCV                 101.9              80-100      High
+박근태            25-OH-Vit.D         18.1               20-100       Low
