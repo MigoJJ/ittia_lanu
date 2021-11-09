@@ -4,7 +4,7 @@ import java.io.File;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
 
-public class FileDirControl {
+public class FileDirControl_Dir_Files_list {
 	public static void main(String[] args) {
 		File temp = new File("/home/migojj/jepansedoncjesuis/ittia/src/Ex/RC_2020__june01_july8");
 		File[] contents = temp.listFiles();

@@ -1,8 +1,8 @@
-package ittia.jepanse.gdsclinic.la;
+package ittia.jepanse.gdsclinic.nu;
 
 import ittia.jepanse.gdsclinic.ar.CurrDate;
 import ittia.jepanse.gdsclinic.ar.PressAnyKey;
-import ittia.jepanse.gdsclinic.nu.*;
+
 import java.io.IOException;
 
 public class Startup {
