@@ -21,9 +21,13 @@ public class FileInputStreamTrial {
 		int nameBytes = is.read(datas);
 		String name = new String (datas , 0, nameBytes-1);
 		
-		
 		System.out.print(" typed data is    :   " + name);
 
+		
+		
+		
+		
+		
 		is.close();
 		
 	

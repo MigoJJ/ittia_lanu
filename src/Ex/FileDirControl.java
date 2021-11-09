@@ -6,20 +6,25 @@ import java.text.SimpleDateFormat;
 
 public class FileDirControl {
 	public static void main(String[] args) {
-		File temp = new File("/home/migojj/jepansedoncjesuis/ittia/src/Ex/RC_2020__june01_july8");
+		File temp = new File("/home/migojj/jepansedoncjesuis/ittia/src/ittia/jepanse/gdsclinic/la/result");
 		File[] contents = temp.listFiles();
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("\t\t yyyy-MM-dd a HH:mm");
 		
 		for (File file : contents) {
-			System.out.println(sdf.format(new Date(file.lastModified())));
-			if(file.isDirectory()) {
-				System.out.print("\t<Dir>\t\t\t" + file.getName() );
-			}
-			else {
+//
+//			if(file.isDirectory()) {
+//				System.out.print("\t<Dir>\t\t\t" + file.getName());
+//			}
+			if (file.getName().contains("강") != false) {
 				System.out.print("\t<Files>\t" + file.length() + "\t" + file.getName());
-				}
-				
+			}
+			
+			else {
+//				System.out.print("\t<Files>\t" + file.length() + "\t" + file.getName());
+//				System.out.print("\t<Files>\t skip  ...  files");
+			}
+			System.out.println(sdf.format(new Date(file.lastModified())));
 			}
 		}
 	}
