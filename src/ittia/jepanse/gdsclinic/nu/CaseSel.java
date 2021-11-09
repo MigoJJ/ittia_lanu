@@ -1,26 +1,25 @@
 package ittia.jepanse.gdsclinic.nu;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Scanner;
-
 import ittia.jepanse.gdsclinic.ar.FileRead;
 import ittia.jepanse.gdsclinic.ar.PressAnyKey;
 
 public class CaseSel {
 		static String wd = "./src/ittia/jepanse/gdsclinic/ius";
-	    static String mypage = wd + "/StartupMenu.txt";
+		static String mypage = wd + "/StartupMenu.txt";
        
 	    public void insertCode() throws IOException{
 		       FileRead fr = new FileRead();
 		       fr.startRead(CaseSel.mypage);
-			       
 				Scanner dcin = new Scanner (System.in);  
 				    System.out.print ("Enter a Choice Number :   ");
 				    int myint = dcin.nextInt();  
-				    
-				switch(myint){
-			        case 1: mypage = wd + "/Version_infomation.txt";	returnToHome(); break;
-			        case 2: mypage = wd + "/DoctorLogin.txt";
+
+				switch(myint) {
+					case 1: mypage = wd + "/Version_infomation.txt";	returnToHome(); break;
+			       case 2: mypage = wd + "/DoctorLogin.txt";
 			        			fr.startRead(CaseSel.mypage); 
 			        			DoctorCode.insertDR_Code();
 			        			// insert directory list class
@@ -37,9 +36,9 @@ public class CaseSel {
 	    
 	    public void returnToHome() throws IOException {
 	       	FileRead fr = new FileRead();
+		       fr.startRead(CaseSel.mypage);
 	   			CaseSel.mypage = wd + "/StartupMenu.txt";
     			PressAnyKey.PAK();
-		       fr.startRead(CaseSel.mypage);
 		       
     			Startup.main(null);
 	    }  

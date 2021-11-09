@@ -3,6 +3,7 @@ package ittia.jepanse.gdsclinic.nu;
 import java.io.IOException;
 import java.util.Scanner;
 
+import ittia.jepanse.gdsclinic.ar.PressAnyKey;
 import ittia.jepanse.gdsclinic.ar.PrintFormat_f;
 
 public class DoctorCode {
@@ -38,6 +39,7 @@ public class DoctorCode {
 	    System.out.println("   팩스번호        :   " + clinic_faxnumber);
 	    System.out.println("   이메일          :   " + clinic_email);
 	    System.out.println("-----------------------------------------------------------------------");
+		PressAnyKey.PAK();
 // 		clinic.close(); 
 		}
 }

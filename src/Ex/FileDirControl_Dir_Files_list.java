@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 
 public class FileDirControl_Dir_Files_list {
 	public static void main(String[] args) {
-		File temp = new File("/home/migojj/jepansedoncjesuis/ittia/src/Ex/RC_2020__june01_july8");
+		File temp = new File("/home/migojj/jepansedoncjesuis/ittia/src/ittia/jepanse/gdsclinic/la/result");
 		File[] contents = temp.listFiles();
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("\t\t yyyy-MM-dd a HH:mm");

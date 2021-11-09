@@ -1,7 +1,8 @@
 package ittia.jepanse.gdsclinic.ar;
 
-import java.io.File;  
+
 import java.util.Scanner;
+import java.io.File;
 import java.io.FileNotFoundException;
 
 public class FileRead {
