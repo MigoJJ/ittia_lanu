@@ -14,10 +14,8 @@ public class FileDirControl {
 		for (File file : contents) {
 
 			if (file.getName().contains("강") != false) {
-				System.out.print("\t<Files>\t" + file.length() + "\t" + file.getName());
-			}
-			else {
-			}
+				System.out.print("\t<Files>\t" + file.length() + "\t" + file.getName());			}
+			else {}
 			System.out.println(sdf.format(new Date(file.lastModified())));
 			}
 		}
