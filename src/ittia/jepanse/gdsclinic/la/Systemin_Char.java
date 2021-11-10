@@ -1,4 +1,4 @@
-package Ex;
+package ittia.jepanse.gdsclinic.la;
 
 import java.io.IOException;
 import java.io.InputStream;
