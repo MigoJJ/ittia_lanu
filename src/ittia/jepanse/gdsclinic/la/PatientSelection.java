@@ -12,6 +12,6 @@ public class PatientSelection {
 			
 			FileList.selfilelist(ptname);
 			
-//			System.out.println("Entered code is  :  " + ptname);
+			System.out.println("Entered code is  :  " + ptname);
 		}
 	}
