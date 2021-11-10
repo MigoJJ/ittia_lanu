@@ -12,17 +12,11 @@ public class FileDirControl {
 		SimpleDateFormat sdf = new SimpleDateFormat("\t\t yyyy-MM-dd a HH:mm");
 		
 		for (File file : contents) {
-//
-//			if(file.isDirectory()) {
-//				System.out.print("\t<Dir>\t\t\t" + file.getName());
-//			}
+
 			if (file.getName().contains("강") != false) {
 				System.out.print("\t<Files>\t" + file.length() + "\t" + file.getName());
 			}
-			
 			else {
-//				System.out.print("\t<Files>\t" + file.length() + "\t" + file.getName());
-//				System.out.print("\t<Files>\t skip  ...  files");
 			}
 			System.out.println(sdf.format(new Date(file.lastModified())));
 			}
